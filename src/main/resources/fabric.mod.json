@@ -1,0 +1,27 @@
+{
+	"schemaVersion": 1,
+	"id": "geetransit-welcomer",
+	"version": "${version}",
+	"name": "Welcomer Mod",
+	"description": "Welcome people upon joining.",
+	"authors": [
+		"GeeTransit"
+	],
+	"contact": {
+		"homepage": "https://github.com/GeeTransit/welcomer"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/geetransit-welcomer/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"geetransit.welcomer.WelcomerMod"
+		]
+	},
+	"depends": {
+		"fabricloader": ">=0.14.12",
+		"minecraft": ">=1.19.3",
+		"java": ">=17",
+		"fabric-api": "*"
+	}
+}
